@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Swal from 'sweetalert2';
-
+import Swal from 'sweetalert2'
+import '../styles/add.css'
 const Add   = ({ cases, setCases, setIsAdding }) => {
   const [date, setDate] = useState('');
   const [flag, setFlag] = useState('red');

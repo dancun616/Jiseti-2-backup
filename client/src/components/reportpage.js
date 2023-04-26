@@ -1,5 +1,7 @@
 import React, { useState, useContext } from "react";
-import { AuthContext } from "../AuthContext";
+import { AuthContext } from "../AuthContext"
+import '../styles/reportpage.css'
+
 const Report = () => {
   const [description, setDescription] = useState("");
   const [title, setTitle] = useState("");

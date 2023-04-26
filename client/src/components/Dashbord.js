@@ -7,6 +7,7 @@ import Add from './Add';
 import Edit from './Edit';
 
 import casesData from './data';
+import '../styles/dashboard.css'
 
 const Dashboard = ({ setIsAuthenticated }) => {
   const [cases, setCases] = useState(casesData);

@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthContext";
 import '../styles/signup.css'
 
+
+
 function Registerpage() {
     const navigate = useNavigate()
     const { setUserId } = useContext(AuthContext);

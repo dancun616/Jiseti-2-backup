@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/Report.css'
+
 function Report() {
   const [intervention, setIntervention] = useState([]);
   const [redflagrecords, setRedFlag] = useState([])

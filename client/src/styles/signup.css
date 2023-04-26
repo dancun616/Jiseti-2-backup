@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400&family=Outfit:wght@600&family=Oxygen&family=Roboto&display=swap');
+
+*{
+  color: white;
+  background-color: black;
+  font-family: 'Merriweather', serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  width: 450px;
+  height: 100px;
+  margin: 0 auto; /* Add this line */
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+  border: 1px solid rgba(121, 113, 108, 0.3);
+  
+}
+	
+
+textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	height: 150px;
+	padding: 5px;
+	outline: none;
+	border: 1px solid #ddd;
+	border-radius:7px;
+}
+
+input{
+    width: 100%;
+	margin-bottom: 10px;
+	height: 30px;
+	padding: 5px;
+	outline: none;
+	border: 1px solid #ddd;
+	border-radius:7px;
+}
+
+.button{
+    cursor: pointer;
+	margin-top: 10px;
+	width: 103%;
+	margin-bottom: 10px;
+	color: #fff;
+	border: 0px solid;
+	height: 40px;
+	background-color:#53b95b;
+	padding: 5px;
+	text-align: center;
+	border-radius:7px;
+	border: #333 solid 0.25px;
+
+}
